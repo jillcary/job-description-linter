@@ -21,5 +21,6 @@ export var pluralDescriptions = {
     "Age": "These words imply the job is only for people of a certain age. Use age-neutral terms instead.",
     "Cliches": "Avoid corporate cliches.",
     "Alcohol": "Do not refer to alcohol in job applications.",
-    "Vague": "These words are vague and may deter applicants who define them in different ways."
+    "Vague": "These words are vague and may deter applicants who define them in different ways.",
+    "Sexual": "Sexual terms should never be used in a job posting."
 }
