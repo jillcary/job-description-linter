@@ -27,7 +27,11 @@ class PostDetails extends Component {
             var output = '';
             for(var i = 0; i < words.length; i++) {
                 var word = words[i];
-                var wordToCheck = word.replace(/[.,\#!$%\^&\*;:{}=\_`~()]/g,"")
+                var wordToCheck = word.replace(/[.,\#!$%\^&\*;:{}=\_`~()]/g,"").toLowerCase();
+                if ($.inArray(wordToCheck, termRay) >= 0) {
+                    output += '<mark>' + word + '</mark> ';
+                } else {
+
                 if ($.inArray(wordToCheck, termRay) >= 0) {
                     output += '<mark>' + word + '</mark> ';
                 } else {

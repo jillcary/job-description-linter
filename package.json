@@ -1,19 +1,19 @@
 {
   "name": "job-description-linter",
   "version": "1.0.0",
-  "description": "MSHack 2018",
+  "description": "A tool for finding common non-inclusive language in job postings.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DianeHu/job-description-linter.git"
+    "url": "git+https://github.com/jillcary/job-description-linter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DianeHu/job-description-linter/issues"
+    "url": "https://github.com/jillcary/job-description-linter/issues"
   },
-  "homepage": "https://github.com/DianeHu/job-description-linter#readme"
+  "homepage": "https://github.com/jillcary/job-description-linter#readme"
 }

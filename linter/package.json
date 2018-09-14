@@ -2,7 +2,7 @@
   "name": "linter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dianehu.github.io/job-description-linter/",
+  "homepage": "https://jillcary.github.io/job-description-linter/",
   "dependencies": {
     "@material-ui/core": "^1.4.1",
     "@material-ui/icons": "^2.0.0",
