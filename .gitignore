@@ -34,7 +34,7 @@ build/Release
 
 # Build files 
 build/
-linter/build/
+*/build/
 
 # Dependency directories
 node_modules/
@@ -60,3 +60,21 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# dependencies
+/node_modules
+
+# build
+build/
+
+# testing
+/coverage
+
+# production
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
