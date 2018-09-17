@@ -31,17 +31,15 @@ class PostDetails extends Component {
                 if ($.inArray(wordToCheck, termRay) >= 0) {
                     output += '<mark>' + word + '</mark> ';
                 } else {
-
-                if ($.inArray(wordToCheck, termRay) >= 0) {
-                    output += '<mark>' + word + '</mark> ';
-                } else {
-                    output += word + ' ';
-                }
-            }
-    
-            document.getElementById("output").innerHTML = output;
+                    if ($.inArray(wordToCheck, termRay) >= 0) {
+                        output += '<mark>' + word + '</mark> ';
+                    } else {
+                        output += word + ' ';
+                    }
+                } 
+            }  
+            document.getElementById("output").innerHTML = output; 
         }
-
     }
 
     render() {
