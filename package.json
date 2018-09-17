@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jillcary/job-description-linter/issues"
   },
-  "homepage": "http://jillcary.github.io/job-description-linter.git"
+  "homepage": "http://jillcary.github.io/job-description-linter.git",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
 }
